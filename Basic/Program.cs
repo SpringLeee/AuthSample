@@ -9,7 +9,11 @@ services.AddAuthentication("CookieAuth").AddCookie("CookieAuth",x => {
     x.Cookie.Name = "MyCookie";
     x.LoginPath = "/Login"; 
 
-});
+}); 
+
+services.AddAuthorization(x => {   
+
+});    
 
 var app = builder.Build();
 
