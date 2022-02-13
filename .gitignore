@@ -2,4 +2,5 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/Basic/bin/Debug/net6.0
+bin
+obj
